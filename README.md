@@ -1,5 +1,40 @@
-# trading_bot
-Welcome to the world of crypto trading, where opportunities abound and fortunes are made. As a savvy investor, you understand the importance of staying ahead of the curve and making informed decisions. That's where our crypto auto trader bot comes in - a powerful tool designed to help you navigate the complex world of cryptocurrency trading with ease and precision. With advanced algorithms and cutting-edge technology, our bot is your ultimate partner in achieving your financial goals. Whether you're a seasoned trader or just starting out, our bot is here to help you maximize your profits and minimize your risks. So why wait? Join us today and experience the power of automated trading at its finest!
+# Trading Bot
 
-Crypto futures trading is a type of financial instrument that allows investors to speculate on the future price of cryptocurrencies. It involves buying or selling contracts that represent a certain amount of cryptocurrency at a predetermined price and date in the future. This type of trading can be highly volatile and risky, but it also offers the potential for significant profits. Many exchanges now offer crypto futures trading, making it accessible to a wider range of investors. However, it is important to do thorough research and understand the risks involved before getting involved in this type of trading.
-Technical indicators are mathematical calculations based on the price and/or volume of a security. They are used by traders and investors to analyze market trends, identify potential trading opportunities, and make informed decisions about buying or selling securities. Technical indicators can be plotted on charts to visually represent trends and patterns in the market. Some common technical indicators include moving averages, relative strength index (RSI), stochastic oscillator, and Bollinger Bands. These indicators can be used individually or in combination with other indicators to provide a more comprehensive analysis of the market. While technical indicators can be helpful in making trading decisions, they should not be relied upon solely and should always be used in conjunction with fundamental analysis and risk management strategies.
+Welcome to the Trading Bot repository! This project is a cryptocurrency auto-trading bot designed to assist you in navigating the complex world of crypto futures trading. It utilizes advanced algorithms and technical indicators like the Average Directional Index (ADX) and Relative Strength Index (RSI) to analyze market trends and execute trades based on defined strategies.
+
+## Features
+
+- **Automated Trading**: Executes trades based on predefined strategies.
+- **Technical Indicators**: Uses ADX and RSI for market analysis.
+- **Data Mining**: Analyzes historical data to refine trading strategies.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Relevant Python libraries (see `requirements.txt`)
+
+### Installation
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/reza9234/trading_bot.git
+cd trading_bot
+pip install -r requirements.txt
+```
+
+### Usage
+
+1. **Configure the Strategy**: Update the `config.py` file with your desired trading parameters, such as the indicators to use, thresholds for entering and exiting trades, and other relevant settings.
+
+2. **Run the Bot**: Start the bot by running the main script:
+
+   ```bash
+   python main.py
+3. Monitor Performance: Keep an eye on the bot's performance and logs. Adjust your strategy based on market conditions and performance data.
+
+4. Stop the Bot: Safely stop the bot if needed using your system's standard interruption commands (e.g., Ctrl+C).
+
+5. Logging and Analytics: Review the logs and analytics provided by the bot to refine your trading strategies further.
